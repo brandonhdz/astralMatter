@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home - Astral Matter</title>
+	<link rel="stylesheet" type="text/css" href="../static/astral_styles.css">
+	<link rel="icon" type="image/ico" href="../static/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../static/astral_functions.js"></script>
+	
+	<style type="text/css">
+		div.center_content {
+			display: inline;
+			align-items: center;
+			width: 98.5%;
+			margin: auto;
+		}
+		.center_left {
+			height: 20%;			
+			margin:auto;
+			color: #000000;
+			width: 	308px;
+			text-align: center;
+
+		}
+		.center_center {
+			margin: auto;
+			width: 	308px;
+		}
+
+		.center_right {
+			width: 	308px;
+			margin: auto;
+			text-align: center;
+		}
+
+		#media {
+			width: 100%
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div id="nav_and_home">
+			<div id="logo" >
+				<a href="index.html" title="Home" id="home"><h1 style="margin-top: 0px; margin-bottom: 2px;">Astral Matter</h1>
+				<p style="font-size:70%; margin-top: 0px; margin-bottom: 0px;">Chicago Musician and Digital Artist</p></a>
+			</div>
+
+			<div id="navigation">
+				<div id="menu_bar">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+
+				<ul> <li><a href="index.html" id="nav_link"><h4>Home</h4></a><h4 style=""></h4></li>
+				<li><a href="about.html" id="nav_link"><h4>About</h4></a><h4 style=""></h4></li>
+				<li><a href="music.html" id="nav_link"><h4>Music</h4></a><h4 ></h4></li>
+				<li><a href="artwork.html" id="nav_link"><h4>Artwork</h4></a></li> 
+				</ul>
+
+				<div id="social_media">
+					<a href="https://soundcloud.com/astral_matter" class="fa fa-soundcloud" target="_blank" title="Follow Me on SoundCloud">&nbsp &nbsp </a>
+					<a href="https://www.instagram.com/astral.matter" class="fa fa-instagram" target="_blank" title="Follow Me on Instagram">&nbsp &nbsp</a>
+					<a href="https://www.youtube.com/channel/UCgmH16EUU5i98oaiO3pVKcQ" class="fa fa-youtube" target="_blank" title="Subscribe to Me on YouTube"></a>
+				</div>
+
+				<div id="nav_mobile" class="navigation_mobile">
+					<table id="nav_drop_down_tbl">
+						<tr>
+							<th style="border-top: 1px solid #111177"><a href="home.html" id="nav_link_mobile">Home</a></th>
+						</tr>
+						<tr>
+							<th><a href="about.html" id="nav_link_mobile">About</a></th>
+						</tr>
+
+						<tr>
+							<th><a href="music.html" id="nav_link_mobile">Music</a></th>
+						</tr>
+
+						<tr>
+							<th><a href="artwork.html" id="nav_link_mobile">Artwork</a></th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<div class="main_content">
+		<h2>Featured</h2>
+		<p>Please feel free to listen to my latest track below. I also included some digital art I made. I am open and looking forward to any constructive criticism, my email can be located at the bottom of the page. Don't forget to stay connected with me on social media! </p><br>
+
+		<div id="media">
+
+			<div class="center_left">
+				<img src="../static/synthetic_embryo.jpeg" class= "media_style" id="synth_embryo_fract" alt="Fractal of Synthetic Embryo" height="100%" width="100%" title="Synthetic Embryo Fractal" style="max-width: 75%;">
+				<p>This fractal was created in <a href="https://sourceforge.net/projects/apophysis7x/" target="_blank"><i>Apophysis 7x</i></a></p>
+			</div>	
+
+			<div class="center_center">
+				<table id="audio_player" style="width:300px">
+					<tr>
+						<td> <img src="../static/am_album_cover.jpg" class="media_style" id="am_album_cover" title="Astral Matter Album Cover" alt="Astral Matter Album Cover" height="30%" width="100%"> </td>
+					</tr>
+					<tr>
+							<th style="background-color: #ffffff">Dark Matter | Astral Matter</th>
+								
+					</tr>
+					<tr>
+						<td> <audio controls="controls">
+									<source src="../static/dark_matter.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+						 </audio> </td>
+					</tr>	
+				</table>
+			</div>
+			
+			<br>
+
+			<div class="center_right">
+				<a href="https://gph.is/2Fp9hKQ" target="_blank"> <img id="dancing_fractal" class="media_style" title="Dancing Fractal Animation" src="../static/dancing_fractal.gif" alt="Dancing Fractal GIF" width="100%" height="100%"> </a>
+				<p>Click the GIF to download!</p>
+			</div>
+		</div>
+
+	</div> <br>
+
+	<div class="footer" id="footer">
+		<p id="disclaimer"><i>Disclaimer: This site is merely a draft and may not work on all browsers/devices, please report any bugs.</i></p>
+		<p style="margin: 0px"><b>Contact</b></p>
+		<hr style="width: 250px; margin-top: 0px; margin-bottom: 0px;">
+		<p style="margin: 0px;"> <a class="no_change_url" href="mailto:officialastralmatter@gmail.com?">officialastralmatter@gmail.com</a></p>
+	</div>
+
+	<script type="text/javascript">
+		document.getElementById("menu_bar").onclick = function() {activateMenuIcon()};
+
+	</script>
+</body>
+</html>
