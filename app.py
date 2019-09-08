@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import render_template, request
-from dataParser import *
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
